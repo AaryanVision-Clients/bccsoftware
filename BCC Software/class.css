@@ -1,0 +1,24 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+table {
+  font-family: 'Poppins', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  /*border:1px solid #e8e8e8;*/
+  border:none;
+  text-align: center;
+  padding: 8px;
+  transition:.3s;
+}
+td a:hover{
+  color: blue;
+}
+tr:nth-child(even) {
+  background-color:#6d7fcc;
+  color: #fff;
+}
+tr:nth-child(even) a:hover {
+	color: #dcdcdc;
+}
